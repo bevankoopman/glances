@@ -31,9 +31,9 @@ To upgrade Glances and all its dependencies to the latests versions:
 
     pip install --upgrade glances
     curl -o /tmp/requirements.txt https://raw.githubusercontent.com/nicolargo/glances/master/requirements.txt
-    pip install --upgrade /tmp/requirements.txt
+    pip install --upgrade -r /tmp/requirements.txt
     curl -o /tmp/optional-requirements.txt https://raw.githubusercontent.com/nicolargo/glances/master/optional-requirements.txt
-    pip install --upgrade /tmp/optional-requirements.txt
+    pip install --upgrade -r /tmp/optional-requirements.txt
 
 For additionnal installation methods, read the official `README`_ file.
 
